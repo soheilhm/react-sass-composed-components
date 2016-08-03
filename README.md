@@ -19,6 +19,7 @@ $ npm i -g gulp
 ```sh
 $ git clone https://github.com/mvarela92/create-react-app-sass
 $ cd create-react-app-sass
+$ npm i
 $ npm start
 ```
 
