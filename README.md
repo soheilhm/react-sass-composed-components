@@ -10,10 +10,17 @@ create-react-app-sass - Sass supports files (with zero settings :D ).
 
 How to use:
 
-git clone https://github.com/mvarela92/create-react-app-sass
+You need Gulp installed globally:
 
-cd create-react-app-sass
-npm start
+```sh
+$ npm i -g gulp
+```
+
+```sh
+$ git clone https://github.com/mvarela92/create-react-app-sass
+$ cd create-react-app-sass
+$ npm start
+```
 
 
 happy hacking :)
