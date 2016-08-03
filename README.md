@@ -11,6 +11,7 @@ create-react-app-sass - Sass supports files (with zero settings :D ).
 How to use:
 
 git clone https://github.com/mvarela92/create-react-app-sass
+
 cd create-react-app-sass
 npm start
 
