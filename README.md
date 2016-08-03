@@ -22,7 +22,7 @@ $ cd create-react-app-sass
 $ npm start
 ```
 
-Read how to create-react-app here:
+Read about create-react-app here:
 
 * https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html
 
