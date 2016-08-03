@@ -8,7 +8,7 @@ In the current version ( 0.2.1 ) does not support Sass :(
 
 create-react-app-sass - Sass supports files (with zero settings :D ).
 
-How to use:
+### How to use:
 
 You need Gulp installed globally:
 
