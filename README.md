@@ -4,7 +4,7 @@ create-react-app with SASS
 create-react-app is a fantastic tool to start applications with zero configuration
 
 
-In the current version ( 0.2.1 ) does not support Sass :( 
+The current version ( 0.2.1 ) does not support Sass :( 
 
 create-react-app-sass - Sass supports files (with zero settings :D ).
 
