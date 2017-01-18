@@ -1,14 +1,16 @@
 const gulp = require('gulp');
-const sass = require('gulp-ruby-sass');
+const sass = require('gulp-sass');
 
-gulp.task('sass', () =>
-    sass('./src/**/*.{scss,sass}')
-        .on('error', sass.logError)
-        .pipe(gulp.dest('src/css/'))
-);
+gulp.task('sass', () => {
+  gulp.src('src/Index.scss')
+      .pipe(
+        sass({outputStyle: 'compact'}).on('error', sass.logError)
+      )
+      .pipe(gulp.dest('src/css'))
+});
 
 gulp.task('watch', ['sass'], function () {
-  gulp.watch(['./src/**/*.{scss,sass}'], ['sass']);
+  gulp.watch(['src/Index.scss'], ['sass']);
 });
 
 gulp.task('default', ['sass', 'watch'], function () {
